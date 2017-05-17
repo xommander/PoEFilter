@@ -18,11 +18,11 @@ Show # Currency - Mid
 # Add a unique border and sound to high-end currency (AlertSound5)
 Show # Currency - High
     Class "Currency"
-    BaseType "Exalted" "Divine Orb" "Eternal Orb" "Mirror of" "Feather" "Ancient Reliquary Key"
+    BaseType "Exalted" "Divine Orb" "Eternal Orb" "Mirror of" "Feather"
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetBorderColor 175 96 37 # Rare currency
-    SetFontSize 42
+    SetFontSize 45
     PlayAlertSound 5 300
 
 # Default handling of other currency
@@ -31,6 +31,13 @@ Show # Currency - Low
     SetFontSize 45
 
 # Section: Maps, Uniques, Quest Items, Lab
+
+Show
+    BaseType "Ancient Reliquary Key"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
+    PlayAlertSound 5 90
 
 # Adjust font size of: uniques, maps (includes fragments, breachstones, reliquary keys, and offerings), quest items, and labyrinth items
 Show # Maps/Fragments
