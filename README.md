@@ -1,6 +1,6 @@
 # PoEFilter
 Loot Filter POE
 
-Right Click - Save Target/link as
-https://github.com/xommander/PoEFilter/blob/master/Elv.filter
+WIP - Basic stuff done, added high tier uniques
 
+To work on -
