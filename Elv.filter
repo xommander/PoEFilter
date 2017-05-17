@@ -9,7 +9,8 @@ Show
 Show # Currency - Mid
     Class "Currency"
     BaseType "Fusing" "Regret" "Gemcutter's Prism" "Chisel" "Blessed" "Regal Orb" "Vaal Orb" "Chaos Orb" "Alchemy" "Scouring" "Perandus Coin" "Prophecy" "Remnant of Corruption" "Cartographer's Sextant" "Cartographer's Seal" "Unshaping Orb" "Blessing of" "Splinter of"
-    SetBackgroundColor 0 100 150 200
+    SetTextColor 255 255 255
+    SetBackgroundColor 180 96 0
     SetBorderColor 170 158 130 # Uncommon currency
     SetFontSize 45
     PlayAlertSound 3 300
@@ -18,6 +19,8 @@ Show # Currency - Mid
 Show # Currency - High
     Class "Currency"
     BaseType "Exalted" "Divine Orb" "Eternal Orb" "Mirror of" "Feather" "Ancient Reliquary Key"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
     SetBorderColor 175 96 37 # Rare currency
     SetFontSize 42
     PlayAlertSound 5 300
