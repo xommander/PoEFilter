@@ -234,7 +234,7 @@ Show # Valuables - 6S
     SetBackgroundColor 0 0 0 # Contrast background
     SetBorderColor 127 127 127 # 6S/5L/6L border
     SetFontSize 42
-    PlayAlertSound 2 300
+    PlayAlertSound 3 300
 
 # Slightly lighten white/magic RGB items a la Antnee
 Show # Valuables - RGB Items
