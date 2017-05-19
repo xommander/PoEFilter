@@ -227,7 +227,7 @@ Show # Valuables - 5/6L
     SetBackgroundColor 0 0 0 # Contrast background
     SetBorderColor 127 127 127 # 6S/5L/6L border
     SetFontSize 42
-    PlayAlertSound 2 300
+    PlayAlertSound 3 300
 
 Show # Valuables - 6S
     Sockets = 6
