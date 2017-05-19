@@ -43,7 +43,6 @@ Show
 Show # Maps/Fragments
     Class "Map"
     SetFontSize 38
-    PlayAlertSound 6 300
 
 Show # Quest Items
     Class "Quest"
@@ -212,6 +211,15 @@ Show # Valuables - Atlas Bases
     SetFontSize 38
 
 # Section: Links and Sockets
+
+# Add a grey border and sound to 6s/5l/6l items (AlertSound2)
+Show # Valuables - 5/6L
+    LinkedSockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0 # Contrast background
+    SetBorderColor 127 127 127 # 6S/5L/6L border
+    SetFontSize 45
+    PlayAlertSound 5 300
 
 # Add a grey border and sound to 6s/5l/6l items (AlertSound2)
 Show # Valuables - 5/6L
