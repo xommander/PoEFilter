@@ -10,7 +10,7 @@ Show
 
 # Jewel
 Show
-    BaseType "Jewel"
+    Class "Jewel"
     PlayAlertSound 7 79
 
 Show
@@ -286,7 +286,7 @@ Show # Currency - High
 
 # Tier 4 Currency
 Show # Currency - Mid
-    BaseType "Fusing" "Regret" "Gemcutter's Prism" "Chisel" "Blessed" "Regal Orb" "Vaal Orb" "Chaos Orb" "Alchemy" "Scouring" "Perandus Coin" "Prophecy" "Remnant of Corruption" "Cartographer's Sextant" "Splinter of Esh" "Splinter of Xoph" "Splinter of Tul" "Splinter of Uul-Netol" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" "Orb of Chance" "Glassblower's Bauble"
+    BaseType "Fusing" "Regret" "Gemcutter's Prism" "Chisel" "Blessed" "Regal Orb" "Vaal Orb" "Chaos Orb" "Alchemy" "Scouring" "Perandus Coin" "Remnant of Corruption" "Cartographer's Sextant" "Splinter of Esh" "Splinter of Xoph" "Splinter of Tul" "Splinter of Uul-Netol" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" "Orb of Chance" "Glassblower's Bauble"
     SetTextColor 255 255 255
     SetBackgroundColor 180 96 0
     SetBorderColor 170 158 130 # Uncommon currency
