@@ -4,6 +4,9 @@
 
 Show
     Class "Leaguestone"
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 128 0
+    SetFontSize 45
     PlayAlertSound 1 79
 
 # Section: Misc
@@ -11,6 +14,7 @@ Show
 # Jewel
 Show
     Class "Jewel"
+    SetFontSize 45
     PlayAlertSound 7 79
 
 Show
@@ -23,7 +27,7 @@ Show
 # BreachRing
 Show
     BaseType "Breach Ring"
-    PlayAlertSound 2 79
+    Rarity = Rare
 
 Show
     Corrupted True
@@ -36,10 +40,15 @@ Show
 
 Show
     LinkedSockets = 5
+    SetTextColor 255 255 255
+    SetFontSize 45
     PlayAlertSound 2 79
 
 Show
     LinkedSockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
     PlayAlertSound 5 79
 
 Show
@@ -54,15 +63,20 @@ Show
 Show
     Class "Active Skill Gems" "Support Skill Gems"
     BaseType "Added Chaos Damage Support" "Enhance Support" "Empower Support" "Enlighten Support" "Portal" "Vaal"
+    SetFontSize 45
+    PlayAlertSound 7 79
 
 Show
     Quality >= 10
     Class "Active Skill Gems" "Support Skill Gems"
+    SetFontSize 45
+    PlayAlertSound 7 79
 
 # Section: Div Cards
 
 Show
     Class "Divination Card"
+    SetFontSize 40
     PlayAlertSound 7 79
 
 # Section: Rare Items
@@ -174,12 +188,18 @@ Show
 Show
     LinkedSockets = 6
     BaseType "Simple Robe"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
     PlayAlertSound 5 79
 
 # Tier 1 Unqies
 Show
     BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman" "Bismuth Flask" "Granite Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Wyrmscale Doublet" "Gold Ring" "Crystal Belt" "Citrine Amulet" "Iron Ring" "Simple Robe"
     Rarity >= Unique
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
     PlayAlertSound 5 79
 
 # Hiding Shittier Uniques
@@ -191,7 +211,7 @@ Show
 # All uniques
 Show
     Rarity >= Unique
-    SetFontSize 40
+    SetFontSize 45
     PlayAlertSound 2 79
 
 # Section: Maps
@@ -204,77 +224,106 @@ Show
 # Show Map frags
 Show
     Class "Map Fragments" "Labyrinth Map Item"
+    SetTextColor 0 0 0
+    SetBackgroundColor 136 136 255
+    SetFontSize 45
     PlayAlertSound 2 79
 
 # Showing Shaped maps
 Show
     BaseType "Shaped"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 192 203
+    SetFontSize 45
     PlayAlertSound 8 79
 
 # Show All Red maps
 Show
     DropLevel >= 78
     Class "Maps"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 192 203
+    SetFontSize 45
 
 # Tier 10 Map drops
 Show
     DropLevel = 77
     Class "Maps"
     ItemLevel < 78
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 9 Map drops
 Show
     DropLevel = 76
     Class "Maps"
     ItemLevel < 78
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 8 Map drops
 Show
     DropLevel = 75
     Class "Maps"
     ItemLevel < 78
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 7 Map drops
 Show
     DropLevel = 74
     Class "Maps"
     ItemLevel < 77
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 6 Map drops
 Show
     DropLevel = 73
     Class "Maps"
     ItemLevel < 76
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 5 Map drops
 Show
     DropLevel = 72
     Class "Maps"
     ItemLevel < 75
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 4 Map drops
 Show
     DropLevel = 71
     Class "Maps"
     ItemLevel < 74
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 3 Map drops
 Show
     DropLevel = 70
     Class "Maps"
     ItemLevel < 73
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 2 Map drops
 Show
     DropLevel = 69
     Class "Maps"
     ItemLevel < 72
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier 1 Map drops
 Show
     DropLevel <= 68
     Class "Maps"
     ItemLevel < 71
+    SetFontSize 45
+    PlayAlertSound 8 79
 
 # Section: Currency
 
