@@ -44,6 +44,9 @@ Show
 
 Show
     Sockets = 6
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetFontSize 45
     PlayAlertSound 2 79
 
 # Section: Gems
@@ -181,7 +184,7 @@ Show
 
 # Hiding Shittier Uniques
 Show
-    BaseType "Chain Gloves" "Serrated Arrow Quiver" "Skinning Knife" "Ornate Ringmail" "Cloth Belt" "Imbued Wand" "Two-Point Arrow Quiver" "Iron Mask" "Coral Ring" "Carved Wand" "Royal Staff" "Lapis Amulet" "Holy Chainmail" "Velvet Slippers" "Plate Vest" "Aventail Helmet" "Gnarled Branch" "War Buckler" "Compound Spiked Shield" "Void Sceptre" "Great Mallet" "Quicksilver Flask" "Harbinger Bow" "Sulphur Flask" "Supreme Spiked Shield" "Bone Bow" "Sharktooth Arrow Quiver" "Ironscale Boots" "Ezomyte Blade" "Vaal Claw" "Crystal Wand" "Long Staff" "Painted Buckler" "Widowsilk Robe" "Spiked Club" "Baroque Round Shield" "Platinum Kris" "Wool Gloves" "Woodsplitter" "Leather Hood" "Karui Maul" "Boot Blade" "Serpentine Staff" "Poleaxe" "Golden Mask" "Deerskin Boots"
+    BaseType "Chain Gloves" "Serrated Arrow Quiver" "Skinning Knife" "Ornate Ringmail" "Cloth Belt" "Imbued Wand" "Two-Point Arrow Quiver" "Iron Mask" "Coral Ring" "Carved Wand" "Royal Staff" "Lapis Amulet" "Holy Chainmail" "Velvet Slippers" "Plate Vest" "Aventail Helmet" "Gnarled Branch" "War Buckler" "Compound Spiked Shield" "Void Sceptre" "Great Mallet" "Quicksilver Flask" "Harbinger Bow" "Sulphur Flask" "Supreme Spiked Shield" "Bone Bow" "Sharktooth Arrow Quiver" "Ironscale Boots" "Ezomyte Blade" "Vaal Claw" "Crystal Wand" "Long Staff" "Painted Buckler" "Widowsilk Robe" "Spiked Club" "Baroque Round Shield" "Platinum Kris" "Wool Gloves" "Woodsplitter" "Leather Hood" "Karui Maul" "Boot Blade" "Serpentine Staff" "Poleaxe" "Golden Mask" "Deerskin Boots" "Titan Gauntlets"
     Rarity = Unique
     SetFontSize 35
 
@@ -286,7 +289,7 @@ Show # Currency - High
 
 # Tier 4 Currency
 Show # Currency - Mid
-    BaseType "Fusing" "Regret" "Gemcutter's Prism" "Chisel" "Blessed" "Regal Orb" "Vaal Orb" "Chaos Orb" "Alchemy" "Scouring" "Perandus Coin" "Remnant of Corruption" "Cartographer's Sextant" "Splinter of Esh" "Splinter of Xoph" "Splinter of Tul" "Splinter of Uul-Netol" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" "Orb of Chance" "Glassblower's Bauble"
+    BaseType "Fusing" "Regret" "Gemcutter's Prism" "Chisel" "Blessed" "Regal Orb" "Vaal Orb" "Chaos Orb" "Alchemy" "Scouring" "Perandus Coin" "Remnant of Corruption" "Cartographer's Sextant" "Splinter of Esh" "Splinter of Xoph" "Splinter of Tul" "Splinter of Uul-Netol" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" "Glassblower's Bauble"
     SetTextColor 255 255 255
     SetBackgroundColor 180 96 0
     SetBorderColor 170 158 130 # Uncommon currency
@@ -295,11 +298,12 @@ Show # Currency - Mid
 
 # Tier 3 Curry
 Show
-    BaseType "Jeweller's Orb" "Orb of Alteration" "Chromatic Orb"
+    BaseType "Jeweller's Orb" "Orb of Alteration" "Chromatic Orb" "Silver Coin" "Orb of Chance"
     SetTextColor 255 255 255
     SetBackgroundColor 175 96 37
     SetBorderColor 170 158 130
     SetFontSize 45
+    PlayAlertSound 8 79
 
 # Tier2Curry
 Show
