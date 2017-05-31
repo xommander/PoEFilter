@@ -221,7 +221,7 @@ Show
 
 # Hiding Shittier Uniques
 Show
-    BaseType "Chain Gloves" "Serrated Arrow Quiver" "Skinning Knife" "Ornate Ringmail" "Cloth Belt" "Imbued Wand" "Two-Point Arrow Quiver" "Iron Mask" "Coral Ring" "Carved Wand" "Royal Staff" "Lapis Amulet" "Holy Chainmail" "Velvet Slippers" "Plate Vest" "Aventail Helmet" "Gnarled Branch" "War Buckler" "Compound Spiked Shield" "Void Sceptre" "Great Mallet" "Quicksilver Flask" "Harbinger Bow" "Sulphur Flask" "Supreme Spiked Shield" "Bone Bow" "Sharktooth Arrow Quiver" "Ironscale Boots" "Ezomyte Blade" "Vaal Claw" "Crystal Wand" "Long Staff" "Painted Buckler" "Widowsilk Robe" "Spiked Club" "Baroque Round Shield" "Platinum Kris" "Wool Gloves" "Woodsplitter" "Leather Hood" "Karui Maul" "Boot Blade" "Serpentine Staff" "Poleaxe" "Golden Mask" "Deerskin Boots" "Titan Gauntlets" "Necromancer Circlet" "Scholar's Robe" "Ornate Sword"
+    BaseType "Chain Gloves" "Serrated Arrow Quiver" "Skinning Knife" "Ornate Ringmail" "Cloth Belt" "Imbued Wand" "Two-Point Arrow Quiver" "Iron Mask" "Coral Ring" "Carved Wand" "Royal Staff" "Lapis Amulet" "Holy Chainmail" "Velvet Slippers" "Plate Vest" "Aventail Helmet" "Gnarled Branch" "War Buckler" "Compound Spiked Shield" "Void Sceptre" "Great Mallet" "Quicksilver Flask" "Harbinger Bow" "Sulphur Flask" "Supreme Spiked Shield" "Bone Bow" "Sharktooth Arrow Quiver" "Ironscale Boots" "Ezomyte Blade" "Vaal Claw" "Crystal Wand" "Long Staff" "Painted Buckler" "Widowsilk Robe" "Spiked Club" "Baroque Round Shield" "Platinum Kris" "Wool Gloves" "Woodsplitter" "Leather Hood" "Karui Maul" "Boot Blade" "Serpentine Staff" "Poleaxe" "Golden Mask" "Deerskin Boots" "Titan Gauntlets" "Necromancer Circlet" "Scholar's Robe" "Ornate Sword" "Vine Circlet" "Crusader Chainmail" "Estoc" "Highland Blade" "Soldier Helmet" "Carnal Armour"
     Rarity = Unique
     SetFontSize 35
 
@@ -246,6 +246,15 @@ Show
     SetFontSize 45
     PlayAlertSound 2 79
 
+# Show All Red maps
+Show
+    DropLevel >= 78
+    Class "Maps"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 192 203
+    SetFontSize 45
+    PlayAlertSound 3 79
+
 # Showing Shaped maps
 Show
     BaseType "Shaped"
@@ -254,10 +263,8 @@ Show
     SetFontSize 45
     PlayAlertSound 8 79
 
-# Show All Red maps
 Show
-    DropLevel >= 78
-    Class "Maps"
+    BaseType "Strand Map" "Dunes Map" "Oasis Map" "Mesa Map" "Atoll Map" "Tropical Island Map"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetFontSize 45
