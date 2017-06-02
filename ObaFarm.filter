@@ -78,6 +78,13 @@ Show
 # Section: Gems
 
 Show
+    Quality <= 6
+    Quality >= 4
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetFontSize 45
+    PlayAlertSound 7 79
+
+Show
     Class "Active Skill Gems" "Support Skill Gems"
     BaseType "Added Chaos Damage Support" "Enhance Support" "Empower Support" "Enlighten Support" "Portal" "Vaal"
     SetFontSize 45
