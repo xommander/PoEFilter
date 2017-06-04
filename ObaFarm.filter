@@ -11,6 +11,13 @@ Show
 
 # Section: Misc
 
+Show
+    BaseType "Key"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 100 150 200
+    SetFontSize 45
+    PlayAlertSound 2 79
+
 # HighTierEssence
 Show
     BaseType "Shrieking Essence of " "Essence of Delirium" "Essence of Horror" "Essence of Hysteria" "Essence of Insanity" "Deafening Essence of"
@@ -77,11 +84,12 @@ Show
 
 # Section: Gems
 
+# Oba Jewels
 Show
     Quality <= 6
     Quality >= 4
     Class "Active Skill Gems" "Support Skill Gems"
-    SetFontSize 45
+    SetFontSize 34
     PlayAlertSound 7 79
 
 Show
@@ -419,10 +427,10 @@ Show
 
 # Tier2Curry
 Show
-    BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
+    BaseType "Blacksmith's Whetstone" "Orb of Transmutation" "Armourer's Scrap" "Orb of Augmentation"
 
 Hide
-    BaseType "Scroll of Wisdom" "Armourer's Scrap" "Portal Scroll" "Orb of Augmentation"
+    BaseType "Scroll of Wisdom" "Portal Scroll"
 
 # Default Currency
 Show
