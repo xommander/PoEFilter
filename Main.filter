@@ -40,7 +40,7 @@ Show
     ItemLevel < 50
 
 Show
-    Class "Critical Utility Flasks" "Utility Flasks" "Life Flasks" "Mana Flasks"
+    Class "Critical Utility Flasks" "Utility Flasks"
     SetTextColor 255 255 255
     SetBackgroundColor 0 128 0
     SetFontSize 40
@@ -520,7 +520,7 @@ Show
 
 # Tier2Curry
 Show
-    BaseType "Blacksmith's Whetstone" "Orb of Transmutation" "Armourer's Scrap" "Orb of Augmentation"
+    BaseType "Blacksmith's Whetstone" "Orb of Transmutation" "Armourer's Scrap"
 
 Show
     BaseType "Scroll of Wisdom" "Portal Scroll"
