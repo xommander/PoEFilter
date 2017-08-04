@@ -11,33 +11,33 @@ Show
 
 # Section: Flasks
 
-Hide
+Show
     BaseType "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask"
-    ItemLevel >= 12
+    ItemLevel < 12
 
-Hide
+Show
     BaseType "Greater Mana Flask" "Greater Life Flask"
-    ItemLevel >= 18
+    ItemLevel < 18
 
-Hide
+Show
     BaseType "Grand Life Flask" "Grand Mana Flask"
-    ItemLevel >= 24
+    ItemLevel < 24
 
-Hide
+Show
     BaseType "Giant Life Flask" "Giant Mana Flask"
-    ItemLevel >= 30
+    ItemLevel < 30
 
-Hide
+Show
     BaseType "Colossal Life Flask" "Colossal Mana Flask"
-    ItemLevel >= 36
+    ItemLevel < 36
 
-Hide
+Show
     BaseType "Sacred Life Flask" "Sacred Mana Flask"
-    ItemLevel >= 42
+    ItemLevel < 42
 
-Hide
+Show
     BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
-    ItemLevel >= 50
+    ItemLevel < 50
 
 Show
     Class "Critical Utility Flasks" "Utility Flasks" "Life Flasks" "Mana Flasks"
@@ -52,7 +52,7 @@ Show
     SetFontSize 45
 
 Show
-    BaseType "Pantheon Soul" "Divine Vessel"
+    BaseType "Divine Vessel"
     SetTextColor 255 255 255
     SetBackgroundColor 210 0 0
     SetFontSize 45
@@ -90,6 +90,10 @@ Show
 
 Show
     BaseType "Fishing Rod"
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
+    SetFontSize 45
+    PlayAlertSound 5 79
 
 Show
     Class "Amulets"
